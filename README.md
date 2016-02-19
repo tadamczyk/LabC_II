@@ -1,7 +1,8 @@
-# Laboratorium C II semestr
+# Laboratorium C, II semestr
 
 S. Sokołowski.
-  [Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
+  
+[Języki Programowania, II semestr](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
 1. [Laboratorium 1](lab1)(http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs01/):
   * [x] [zadanie 1](lab1/zad1.c)
