@@ -12,7 +12,7 @@ S. Sokołowski.
   * [x] [zadanie 5](lab1/zad5.c)
   * [x] [zadanie 6](lab1/zad6.c)
 
-2. [Laboratorium 2](lab1)(http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs02/):
-  * [] [zadanie 1](lab2/zad1.c)
-  * [] [zadanie 2](lab2/zad2.c)
-  * [] [zadanie 3](lab2/zad3.c)
+2. [Laboratorium 2](lab2)(http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs02/):
+  * [ ] [zadanie 1](lab2/zad1.c)
+  * [ ] [zadanie 2](lab2/zad2.c)
+  * [ ] [zadanie 3](lab2/zad3.c)
