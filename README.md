@@ -15,3 +15,21 @@ Stefan Sokołowski
   * [ ] [zadanie 1](lab2/zad1.c)
   * [ ] [zadanie 2](lab2/zad2.c)
   * [ ] [zadanie 3](lab2/zad3.c)
+
+3. [Laboratorium 3](lab3) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
+
+4. [Laboratorium 4](lab4) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):
+
+5. [Laboratorium 5](lab5) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs05/):
+
+6. [Laboratorium 6](lab6) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
+
+7. [Laboratorium 7](lab7) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs07/):
+
+8. [Laboratorium 8](lab8) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs08/):
+
+9. [Laboratorium 9](lab9) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):
+
+10. [Laboratorium 10](lab10) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/):
+
+11. [Laboratorium 11](lab11) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs11/):
