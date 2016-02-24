@@ -3,9 +3,9 @@
 //* skrypt bashowy, który uruchamia powyższy program, przechwytuje wartość przekazaną systemowi i drukuje ją.
 
 #include <stdio.h>
-int main() 
+int main()
 {
-	int n;
+		int n;
   	scanf("%d", &n);
   	return n%3;
 }
