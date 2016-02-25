@@ -12,6 +12,7 @@ Stefan Sokołowski
   * [x] [zadanie 6](lab1/zad6.c)
 
 2. [Laboratorium 2](lab2) (http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs02/):
+  * [x] [zadanie 0](lab2/zad0.c)
   * [ ] [zadanie 1](lab2/zad1.c)
   * [ ] [zadanie 2](lab2/zad2.c)
   * [ ] [zadanie 3](lab2/zad3.c)
