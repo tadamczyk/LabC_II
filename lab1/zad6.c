@@ -5,7 +5,7 @@
 //d. i=1; while ((i*=2)<N);
 
 #include <stdio.h>
-int main() 
+int main()
 {
         int a,b,c,d;
         a=b=c=d=0;

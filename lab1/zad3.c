@@ -8,4 +8,3 @@ int main()
 	for(;(z=getchar())!=EOF;printf("%c",z));
 	return 0;
 }
-

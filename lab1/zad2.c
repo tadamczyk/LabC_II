@@ -6,10 +6,10 @@ int main()
 {
 	char z;
 	z=getchar();
-	while(z!=EOF) 
+	while(z!=EOF)
 	{
-   		printf("%c",z);
-   		z=getchar();
-	} 
+		printf("%c",z);
+   	z=getchar();
+	}
 	return 0;
 }
