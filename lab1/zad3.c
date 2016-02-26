@@ -14,18 +14,18 @@ void wypisz_tab(int tab[], int size)
 }
 void fun1(int tab[], int a)
 {
-    int i,tmp;
-    tmp=a;
-    tab[a++]=0;
-    a=tmp;
-    tab[++a]=1;
-    printf("\nTest 1:\n");
-    printf("tab[a++]=0, tab[++a]=1:\n");
-    for(i=0;i<5;++i)
-      printf("%d ", i);
-    printf("\n");
-    wypisz_tab(tab, 5);
-    printf("To nie to samo!\n");
+  int i,tmp;
+  tmp=a;
+  tab[a++]=0;
+  a=tmp;
+  tab[++a]=1;
+  printf("\nTest 1:\n");
+  printf("tab[a++]=0, tab[++a]=1:\n");
+  for(i=0;i<5;++i)
+    printf("%d ", i);
+  printf("\n");
+  wypisz_tab(tab, 5);
+  printf("To nie to samo!\n");
 }
 void fun2(int x)
 {
