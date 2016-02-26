@@ -12,9 +12,9 @@ Stefan Sokołowski
   * [x] [zadanie 6](lab1/zad6.c) - błąd kompilacji poprzez plik Makefile, prawidłowa kompilacja poprzez "gcc zad6.c"
 
 2. [Laboratorium 2](lab2) [(zadania)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs02/):
-  * [x] [zadanie 0](lab2/zad0.c)
+  * [x] [zadanie 0](lab2/zad0.c) - prawidłowa kompilacja
   * [ ] [zadanie 1](lab2/zad1.c)
-  * [ ] [zadanie 2](lab2/zad2.c)
+  * [x] [zadanie 2](lab2/zad2.c) - prawidłowa kompilacja
   * [ ] [zadanie 3](lab2/zad3.c)
 
 3. [Laboratorium 3](lab3) [(zadania)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
