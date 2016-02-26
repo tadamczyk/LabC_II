@@ -22,10 +22,10 @@ int main()
 {
   char z;
   z=getchar();
-	while(z!=EOF)
-	{
+  while(z!=EOF)
+  {
     if(z!='\n') dec_bin(z);
-   	z=getchar();
-	}
-	return 0;
+    z=getchar();
+  }
+  return 0;
 }
