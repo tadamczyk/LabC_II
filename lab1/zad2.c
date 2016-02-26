@@ -1,5 +1,4 @@
-//Napisać ,,czysty'' program, czyli bez efektów ubocznych,
-//działający tak samo jak powyższa pętla for.
+// Napisać ,,czysty'' program, czyli bez efektów ubocznych, działający tak samo jak powyższa pętla for.
 
 #include <stdio.h>
 int main()
@@ -8,7 +7,7 @@ int main()
 	z=getchar();
 	while(z!=EOF)
 	{
-		printf("%c",z);
+		printf("%c", z);
    	z=getchar();
 	}
 	return 0;
