@@ -5,9 +5,7 @@
 #include <stdio.h>
 int main()
 {
-
-
 	int n;
-  scanf("%d", &n);
-  return n%3;
+	scanf("%i", &n);
+	return n%3;
 }
