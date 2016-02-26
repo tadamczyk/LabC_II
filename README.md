@@ -13,7 +13,7 @@ Stefan Sokołowski
 
 2. [Laboratorium 2](lab2) [(zadania)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs02/):
   * [x] [zadanie 0](lab2/zad0.c) - prawidłowa kompilacja
-  * [ ] [zadanie 1](lab2/zad1.c)
+  * [x] [zadanie 1](lab2/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab2/zad2.c) - prawidłowa kompilacja
   * [ ] [zadanie 3](lab2/zad3.c)
 
