@@ -1,10 +1,10 @@
-//Jakie będą wyniki następujących działań?
-//a.5&3
-//b.5|3
-//c.7<<2&7
-//d.7<<(2&7)
-//e.((-1)<<8)>>16
-//f.13^9
+// Jakie będą wyniki następujących działań?
+// a.5&3
+// b.5|3
+// c.7<<2&7
+// d.7<<(2&7)
+// e.((-1)<<8)>>16
+// f.13^9
 
 #include <stdio.h>
 int main()
