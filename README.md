@@ -15,7 +15,8 @@ Stefan Sokołowski
   * [x] [zadanie 0](lab2/zad0.c) - prawidłowa kompilacja
   * [x] [zadanie 1](lab2/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab2/zad2.c) - prawidłowa kompilacja
-  * [ ] [zadanie 3](lab2/zad3.c)
+  * [x] [zadanie 3a](lab2/zad3a.c) - prawidłowa kompilacja
+  * [x] [zadanie 3b](lab2/zad3b.c) - prawidłowa kompilacja
 
 3. [Laboratorium 3](lab3) [(zadania)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
 
