@@ -1,8 +1,8 @@
 # Laboratorium z C, Języki Programowania
 
-Wykłady: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
+Wykład: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
-Laboratoria: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
+Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 
 1. [Laboratorium 1](lab1) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs01/):
   * [x] [zadanie 1](lab1/zad1.c) - prawidłowa kompilacja
