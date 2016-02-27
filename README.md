@@ -1,5 +1,4 @@
 # Laboratorium z C, Języki Programowania
-# II semestr, I rok informatyki, MFI UG
 
 Wykłady: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
 
