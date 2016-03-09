@@ -21,7 +21,7 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 
 3. [Laboratorium 3](lab3) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
 
-  |typ        |                  min|                  max|    ziarno|  precyzja|
+  |TYP        |                  MIN|                  MAX|    ZIARNO|  PRECYZJA|
   |-----------|---------------------|---------------------|----------|----------|
   |short      |               -32768|                32767|          |          |
   |int        |          -2147483648|           2147483647|          |          |
