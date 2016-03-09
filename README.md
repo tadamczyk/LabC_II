@@ -20,6 +20,17 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 3b](lab2/zad3b.c) - prawidłowa kompilacja
 
 3. [Laboratorium 3](lab3) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
+
+  |typ        |                  min|                  max|    ziarno|  precyzja|
+  |-----------|---------------------|---------------------|----------|----------|
+  |short      |               -32768|                32767|          |          |
+  |int        |          -2147483648|           2147483647|          |          |
+  |long       |          -2147483648|           2147483647|          |          |
+  |long long  | -9223372036854775808|  9223372036854775807|          |          |
+  |float      |              3.4E-38|              3.4E+38|       0  |       6  |
+  |double     |             1.7E-308|             1.7E+308|       0  |      15  |
+  |long double|             1.7E-308|             1.7E+308|       0  |      18  |
+
   * [x] [zadanie 1](lab3/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
   * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
