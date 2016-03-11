@@ -4,6 +4,16 @@ Wykład: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezPro
 
 Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 
+|        TYP| ROZMIAR|                  MIN|                  MAX|       ZIARNO|  PRECYZJA|
+|-----------|--------|---------------------|---------------------|-------------|----------|
+|      short|       2|               -32768|                32767|             |          |
+|        int|       4|          -2147483648|           2147483647|             |          |
+|       long|       8| -9223372036854775808|  9223372036854775807|             |          |
+|  long long|       8| -9223372036854775808|  9223372036854775807|             |          |
+|      float|       4|         1.175494e-38|         3.402823e+38| 1.192093e-07|         6|
+|     double|       8|        2.225074e-308|        1.797693e+308| 2.220446e-16|        15|
+|long double|      16|       3.362103e-4932|       1.189731e+4932| 1.084202e-19|        18|
+
 1. [Laboratorium 1](lab1) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs01/):
   * [x] [zadanie 1](lab1/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab1/zad2.c) - prawidłowa kompilacja
@@ -20,16 +30,6 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 3b](lab2/zad3b.c) - prawidłowa kompilacja
 
 3. [Laboratorium 3](lab3) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs03/):
-
-|        TYP| ROZMIAR|                  MIN|                  MAX|       ZIARNO|  PRECYZJA|
-|-----------|--------|---------------------|---------------------|-------------|----------|
-|      short|       2|               -32768|                32767|             |          |
-|        int|       4|          -2147483648|           2147483647|             |          |
-|       long|       8| -9223372036854775808|  9223372036854775807|             |          |
-|  long long|       8| -9223372036854775808|  9223372036854775807|             |          |
-|      float|       4|         1.175494e-38|         3.402823e+38| 1.192093e-07|         6|
-|     double|       8|        2.225074e-308|        1.797693e+308| 2.220446e-16|        15|
-|long double|      16|       3.362103e-4932|       1.189731e+4932| 1.084202e-19|        18|
   * [x] [zadanie 1](lab3/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
   * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
