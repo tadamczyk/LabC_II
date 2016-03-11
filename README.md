@@ -31,10 +31,10 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 |     double|       8|        2.225074e-308|        1.797693e+308| 2.220446e-16|        15|
 |long double|      16|       3.362103e-4932|       1.189731e+4932| 1.084202e-19|        18|
 
-  * [x] [zadanie 1](lab3/zad1.c) - prawidłowa kompilacja
-  * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
-  * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
-  * [x] [zadanie 4](lab3/zad4.c) - prawidłowa kompilacja
+    * [x] [zadanie 1](lab3/zad1.c) - prawidłowa kompilacja
+    * [x] [zadanie 2](lab3/zad2.c) - prawidłowa kompilacja
+    * [x] [zadanie 3](lab3/zad3.c) - prawidłowa kompilacja
+    * [x] [zadanie 4](lab3/zad4.c) - prawidłowa kompilacja
 
 4. [Laboratorium 4](lab4) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):
   * [x] [zadanie 1](lab4/zad1.c) - prawidłowa kompilacja
