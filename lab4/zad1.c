@@ -54,25 +54,25 @@ zespol zesp_get (void)
       } while(isspace(ch));
       if(ch=='+' || ch=='-')
       {
-        if(ch=='+')  znak_im=1;
-	      else znak_im=-1;
-	      if(scanf("%lf", &(z.ima))==1)
-        {
-	         do
-           {
-             ch=getchar();
-           } while(isspace(ch));
-	      if(ch=='i')
+        if(ch=='+') znak_im=1;
+        else znak_im=-1;
+        if(scanf("%lf", &(z.ima))==1)
         {
           do
           {
             ch=getchar();
           } while(isspace(ch));
-	        if(ch==')')
+          if(ch=='i')
           {
-	           if(znak_im==-1) z.ima=-z.ima;
-	        } else err("brak koncowego nawiasu");
-	       } else err("brak 'i' na koncu czesci urojonej");
+            do
+            {
+              ch=getchar();
+            } while(isspace(ch));
+            if(ch==')')
+            {
+              if(znak_im==-1) z.ima=-z.ima;
+            } else err("brak koncowego nawiasu");
+          } else err("brak 'i' na koncu czesci urojonej");
         } else err("niepoprawna czesc urojona");
       } else err("po czesci rzeczywistej brak znaku '+' lub '-'");
     } else err("niepoprawna czesc rzeczywista");
