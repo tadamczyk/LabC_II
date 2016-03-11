@@ -1,7 +1,11 @@
-#include<stdio.h>
-#include<math.h>
-#include<ctype.h>
-#include<stdlib.h>
+// Opracować zestaw operacji na liczbach zespolonych potrzebny do prawidłowego działania tego programu.
+// W tym celu należy prototypy (nagłówki) podanych tam funkcji, realizujących działania, zastąpić lub uzupełnić pełnymi definicjami działań.
+// Oczywiście dla napisania tych funkcji, potrzebne jest zastosowanie własnej wiedzy o liczbach zespolonych (np. z algebry).
+
+#include <stdio.h>
+#include <math.h>
+#include <ctype.h>
+#include <stdlib.h>
 /****************************************************************/
 // DEFINICJA TYPU LICZB ZESPOLONYCH:
 typedef struct
@@ -18,22 +22,22 @@ void err(char s[])
 }
 /****************************************************************/
 // INICJALIZACJE oraz WEJSCIE-WYJSCIE:
-zespol zesp_zestawic (double r, double i)
+zespol zesp_zestawic(double r, double i)
 {
   // zestawienie liczby zespolonej z dwoch rzeczywistych
   zespol z;
-  z.rea = r;
-  z.ima = i;
+  z.rea=r;
+  z.ima=i;
   return z;
 }
-zespol zesp_get (void)
+zespol zesp_get(void)
 {
-    /* wczytanie liczby zespolonej; powinna skladac sie z dwoch
-       rzeczywistych, oraz plusa lub minusa miedzy nimi, zaczynac sie od
-       nawiasu otwierajacego, konczyc sie litera ,,i'' oraz nawiasem
-       zamykajacym;
-       np.  (123.45 + 67.89i)
-    */
+  /* wczytanie liczby zespolonej; powinna skladac sie z dwoch
+  rzeczywistych, oraz plusa lub minusa miedzy nimi, zaczynac sie od
+  nawiasu otwierajacego, konczyc sie litera ,,i'' oraz nawiasem
+  zamykajacym;
+  np. (123.45 + 67.89i)
+  */
   char ch;
   zespol z;
   int znak_im;
@@ -87,15 +91,15 @@ void zesp_print(zespol z)
 }
 /****************************************************************/
 // DZIALANIA:
-zespol zesp_dodac (zespol z1, zespol z2);
+zespol zesp_dodac(zespol z1, zespol z2);
   // dodawanie liczb zespolonych
-zespol zesp_odjac (zespol z1, zespol z2);
+zespol zesp_odjac(zespol z1, zespol z2);
   // odejmowanie liczb zespolonych
-zespol zesp_razy (zespol z1, zespol z2);
+zespol zesp_razy(zespol z1, zespol z2);
   // mnozenie liczb zespolonych
-zespol zesp_sprzez (zespol z);
+zespol zesp_sprzez(zespol z);
   // liczba sprzezona do danej zespolonej
-double zesp_abs (zespol z);
+double zesp_abs(zespol z);
   // wartosc bezwzgledna liczby zespolonej
 /****************************************************************/
 int main()
