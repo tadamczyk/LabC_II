@@ -3,18 +3,18 @@
 #include <stdio.h>
 int main()
 {
-  short shr=32767;
-  short shr2=shr+10;
-  printf("Short: %i + 10 = %i\n", shr, shr2);
-  int in=2000000000;
-  int in2=in+1000000000;
-  printf("Int: %i + 1000000000 = %i\n", in, in2);
-  long lg=9000000000000000000;
-  long lg2=lg+1000000000000000000;
-  printf("Long: %li + 1000000000000000000 = %li\n", lg, lg2);
-  long long llg=9000000000000000000;
-  long long llg2=llg+1000000000000000000;
-  printf("Long long: %lli + 1000000000000000000 = %lli\n", llg, llg2);
+  short shr=1;
+  short shr2=1/2;
+  printf("Short: %i / 2 = %i\n", shr, shr2);
+  int in=1;
+  int in2=in/4;
+  printf("Int: %i / 4 = %i\n", in, in2);
+  long lg=1;
+  long lg2=lg+0.5;
+  printf("Long: %li + 0.5 = %li\n", lg, lg2);
+  long long llg=1;
+  long long llg2=llg+0.99;
+  printf("Long long: %lli + 0.99 = %lli\n", llg, llg2);
   float fl=0.000001;
   float fl2=fl/2.0;
   printf("Float: %f / 2 = %f\n", fl, fl2);

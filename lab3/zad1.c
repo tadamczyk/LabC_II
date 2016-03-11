@@ -9,37 +9,14 @@
 #include <float.h>
 int main()
 {
-  printf("Liczba zajmowanych bajtow:\n");
-  printf("short:\t\t%li\n", sizeof(short));
-  printf("int:\t\t%li\n", sizeof(int));
-  printf("long:\t\t%li\n", sizeof(long));
-  printf("long long:\t%li\n", sizeof(long long));
-  printf("float:\t\t%li\n", sizeof(float));
-  printf("double:\t\t%li\n", sizeof(double));
-  printf("long double:\t%li\n\n", sizeof(long double));
-  printf("Dolna wartosc:\n");
-  printf("short:\t\t%i\n", SHRT_MIN);
-  printf("int:\t\t%i\n", INT_MIN);
-  printf("long:\t\t%li\n", LONG_MIN);
-  printf("long long:\t%lli\n", LLONG_MIN);
-  printf("float:\t\t%e\n", FLT_MIN);
-  printf("double:\t\t%e\n", DBL_MIN);
-  printf("long double:\t%Le\n\n", LDBL_MIN);
-  printf("Gorna wartosc:\n");
-  printf("short:\t\t%i\n", SHRT_MAX);
-  printf("int:\t\t%i\n", INT_MAX);
-  printf("long:\t\t%li\n", LONG_MAX);
-  printf("long long:\t%lli\n", LLONG_MAX);
-  printf("float:\t\t%e\n", FLT_MAX);
-  printf("double:\t\t%e\n", DBL_MAX);
-  printf("long double:\t%Le\n\n", LDBL_MAX);
-  printf("Ziarno:\n");
-  printf("float:\t\t%e\n", FLT_EPSILON);
-  printf("double:\t\t%e\n", DBL_EPSILON);
-  printf("long double:\t%Le\n\n", LDBL_EPSILON);
-  printf("Precyzja:\n");
-  printf("float:\t\t%i\n", FLT_DIG);
-  printf("double:\t\t%i\n", DBL_DIG);
-  printf("long double:\t%i\n\n", LDBL_DIG);
+  printf("|%11s|%8s|%21s|%21s|%13s|%10s|\n", "TYP", "ROZMIAR", "MIN", "MAX", "ZIARNO", "PRECYZJA");
+  printf("|-----------|--------|---------------------|---------------------|-------------|----------|\n");
+  printf("|%11s| %7li| %20i| %20i|%13c|%10c|\n", "short", sizeof(short), (short)SHRT_MIN, (short)SHRT_MAX, ' ', ' ');
+  printf("|%11s| %7li| %20d| %20d|%13c|%10c|\n", "int", sizeof(int), (int)INT_MIN, (int)INT_MAX, ' ', ' ');
+  printf("|%11s| %7li| %20li| %20li|%13c|%10c|\n", "long", sizeof(long), (long)LONG_MIN, (long)LONG_MAX, ' ', ' ');
+  printf("|%11s| %7li| %20lli| %20lli|%13c|%10c|\n", "long long", sizeof(long long), (long long)LLONG_MIN, (long long)LLONG_MAX, ' ', ' ');
+  printf("|%11s| %7li| %20e| %20e| %e| %9d|\n", "float", sizeof(float), (float)FLT_MIN, (float)FLT_MAX, FLT_EPSILON, (int)FLT_DIG);
+  printf("|%11s| %7li| %20le| %20le| %e| %9d|\n", "double", sizeof(double), (double)DBL_MIN, (double)DBL_MAX, DBL_EPSILON, (int)DBL_DIG);
+  printf("|%11s| %7li| %20Le| %20Le| %Le| %9d|\n", "long double", sizeof(long double), (long double)LDBL_MIN, (long double)LDBL_MAX, LDBL_EPSILON, (int)LDBL_DIG);
   return 0;
 }
