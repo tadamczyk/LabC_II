@@ -79,7 +79,7 @@ int znajdz_nazwisko(char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
   /* do danego nazwiska  na  znajduje w spisie imie  im  oraz pensje  p
      jesli znajdzie, to zwraca 1, jesli nie, to 0 */
   int i=0;
-	while(i<IL_OSOB && strcmp(na,spis[i].nazwisko)!=0) i++;
+  while(i<IL_OSOB && strcmp(na,spis[i].nazwisko)!=0) i++;
   if(i==IL_OSOB) return 0;
   else if(strcmp(na,spis[i].nazwisko)==0) strcpy(im,spis[i].imie);
   *p=spis[i].pensja;

@@ -3,6 +3,7 @@
 // Dlatego przez niektórych jest uważana za ,,najpiękniejszy'' wzór matematyczny.
 // Program z zadania 1 wzbogacić o funkcje potrzebne do tego, żeby można było sprawdzić,
 // czy tożsamość Eulera istotnie zachodzi (mogą wystąpić błędy zaokrągleń).
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
