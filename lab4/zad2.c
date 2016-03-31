@@ -3,7 +3,6 @@
 // Dlatego przez niektórych jest uważana za ,,najpiękniejszy'' wzór matematyczny.
 // Program z zadania 1 wzbogacić o funkcje potrzebne do tego, żeby można było sprawdzić,
 // czy tożsamość Eulera istotnie zachodzi (mogą wystąpić błędy zaokrągleń).
-
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
@@ -166,7 +165,7 @@ zespol zesp_exp(zespol z)
   zespol wyn=zero();
   zespol temp=jeden();
   int i;
-	for(i=1;i<1000000;i++)
+  for(i=1;i<1000000;i++)
   {
     wyn=zesp_dodac(wyn, temp);
     temp=zesp_dziel(zesp_razy(temp, z), i);
@@ -179,8 +178,8 @@ int main()
   zespol z1, z2;
   zespol Eul=euler();
   zespol O=jeden();
-	zespol PII={0.0, M_PI};
-	zespol left=zesp_dodac(zesp_exp(PII), O);
+  zespol PII={0.0, M_PI};
+  zespol left=zesp_dodac(zesp_exp(PII), O);
   printf("Z1 == "); z1 = zesp_get();
   printf("Z2 == "); z2 = zesp_get();
   printf("\nZ1+Z2 == "); zesp_print(zesp_dodac(z1, z2));
@@ -194,9 +193,9 @@ int main()
   printf(" = ");
   zesp_print(zesp_dodac(Eul, O));
   printf("\n");
-	zesp_print(zesp_exp(Eul));
+  zesp_print(zesp_exp(Eul));
   printf("\n");
-	zesp_print(left);
+  zesp_print(left);
   printf("\n");
   return 0;
 }
