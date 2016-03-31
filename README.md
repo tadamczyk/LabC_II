@@ -37,11 +37,11 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 
 4. [Laboratorium 4](lab4) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs04/):
   * [x] [zadanie 1](lab4/zad1.c) - prawidłowa kompilacja
-  * [ ] [zadanie 2](lab4/zad2.c)
+  * [x] [zadanie 2](lab4/zad2.c) - prawidłowa kompilacja
 
 5. [Laboratorium 5](lab5) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs05/):
   * [x] [zadanie 1](lab5/zad1.c) - prawidłowa kompilacja
-  * [ ] [zadanie 2](lab5/zad2.c)
+  * [x] [zadanie 2](lab5/zad2.c) -
 
 6. [Laboratorium 6](lab6) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
 

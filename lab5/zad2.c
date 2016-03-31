@@ -44,18 +44,64 @@ void sortuj_spis(void)
 {
   /* sortuje  spis  alfabetycznie wg nazwisk,
      a w przypadku rownych nazwisk wg imion */
+  int i, j;
+  char pom[NAZW_MAX+1];
+  for(i=1;i<=IL_OSOB;i++)
+  {
+    for(j=i;j<IL_OSOB;j++)
+    {
+      if(strcmp(spis[j-1].nazwisko,spis[j].nazwisko)>0)
+      {
+        strcpy(pom,spis[j-1].nazwisko);
+        strcpy(spis[j-1].nazwisko,spis[j].nazwisko);
+        strcpy(spis[j].nazwisko,pom);
+      }
+      else if(strcmp(spis[j-1].nazwisko,spis[j].nazwisko)==0)
+      {
+        strcpy(pom,spis[j-1].imie);
+        strcpy(spis[j-1].imie,spis[j].imie);
+        strcpy(spis[j].imie,pom);
+      }
+    }
+  }
+  FILE* baza2=fopen("posortowane.txt","w");
+  for(i=0;i<IL_OSOB;i++)
+  {
+    fprintf(baza2, "%s	", spis[i].imie);
+    fprintf(baza2, "%s	", spis[i].nazwisko);
+    fprintf(baza2, "%i\n", spis[i].pensja);
+  }
+  fclose(baza2);
 }
 //=======================================================
 int znajdz_nazwisko(char na[NAZW_MAX+1], char im[IMIE_MAX+1], int *p)
 {
   /* do danego nazwiska  na  znajduje w spisie imie  im  oraz pensje  p
      jesli znajdzie, to zwraca 1, jesli nie, to 0 */
+  int i=0;
+	while(i<IL_OSOB && strcmp(na,spis[i].nazwisko)!=0) i++;
+  if(i==IL_OSOB) return 0;
+  else if(strcmp(na,spis[i].nazwisko)==0) strcpy(im,spis[i].imie);
+  *p=spis[i].pensja;
+  return 1;
 }
 //=======================================================
 int znajdz_imie(char im[NAZW_MAX+1], char na[IMIE_MAX+1], int *p)
 {
   /* do danego imienia  im  znajduje w spisie nazwisko  na  oraz pensje  p
      jesli znajdzie, to zwraca 1, jesli nie, to 0 */
+  int i=0;
+  while(i<IL_OSOB && strcmp(im,spis[i].imie)!=0)
+  {
+    if((strcmp(im,spis[i].imie)==0))
+    {
+      strcpy(na,spis[i].nazwisko);
+      *p=spis[i].pensja;
+      return 1;
+    }
+    i++;
+  }
+  return 0;
 }
 //=======================================================
 int main()
