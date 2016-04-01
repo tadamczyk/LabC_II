@@ -107,11 +107,11 @@ Boolean form0(drzewo* drz)
       if(form1(&drz1))
       {
         drz2=(drzewo)malloc(sizeof(wezel));
-	      drz2->tp=dd;
-	      drz2->sp=wttw;
-	      drz2->lewy=*drz;
-	      drz2->prawy=drz1;
-	      *drz=drz2;
+        drz2->tp=dd;
+        drz2->sp=wttw;
+        drz2->lewy=*drz;
+        drz2->prawy=drz1;
+        *drz=drz2;
       }
       else blad("form0 = ???");
     }
@@ -134,12 +134,12 @@ Boolean form1(drzewo* drz)
     {
       if(form1(&drz1))
       {
-	      drz2=(drzewo)malloc(sizeof(wezel));
-	      drz2->tp=dd;
-	      drz2->sp=jesli;
-	      drz2->lewy=*drz;
-	      drz2->prawy=drz1;
-	      *drz=drz2;
+        drz2=(drzewo)malloc(sizeof(wezel));
+        drz2->tp=dd;
+        drz2->sp=jesli;
+        drz2->lewy=*drz;
+        drz2->prawy=drz1;
+        *drz=drz2;
         return TRUE;
       }
       else return blad("form2 > ???");
@@ -167,11 +167,11 @@ Boolean form2(drzewo* drz)
       if(form3(&drz1))
       {
         drz2=(drzewo)malloc(sizeof(wezel));
-	      drz2->tp=dd;
-	      drz2->sp=lub;
-	      drz2->lewy=*drz;
-	      drz2->prawy=drz1;
-	      *drz=drz2;
+        drz2->tp=dd;
+        drz2->sp=lub;
+        drz2->lewy=*drz;
+        drz2->prawy=drz1;
+        *drz=drz2;
       }
       else return blad("form3 | ???");
     }
@@ -195,11 +195,11 @@ Boolean form3(drzewo* drz)
       if(form4(&drz1))
       {
         drz2=(drzewo)malloc(sizeof(wezel));
-	      drz2->tp=dd;
-	      drz2->sp=ii;
-	      drz2->lewy=*drz;
-	      drz2->prawy=drz1;
-	      *drz=drz2;
+        drz2->tp=dd;
+        drz2->sp=ii;
+        drz2->lewy=*drz;
+        drz2->prawy=drz1;
+        *drz=drz2;
       }
       else return blad("form4 & ???");
     }
@@ -275,7 +275,7 @@ Boolean form5(drzewo* drz)
 /***************************************************/
 char wylicz(drzewo drz, char tab[26])
 {
-	if(drz->tp==zz)
+  if(drz->tp==zz)
   {
     return tab[drz->zm-97];
   }
@@ -283,7 +283,7 @@ char wylicz(drzewo drz, char tab[26])
   {
     return drz->st;
   }
-	else if(drz->tp==dd && drz->sp==nie)
+  else if(drz->tp==dd && drz->sp==nie)
   {
     if(wylicz(drz->prawy, tab)=='0') return '1';
     else return '0';
@@ -298,12 +298,12 @@ char wylicz(drzewo drz, char tab[26])
     if((wylicz(drz->lewy, tab)=='0') && (wylicz(drz->prawy, tab)=='0')) return '0';
     else return '1';
   }
-	else if(drz->tp==dd && drz->sp==jesli)
+  else if(drz->tp==dd && drz->sp==jesli)
   {
     if((wylicz(drz->lewy, tab)=='1') && (wylicz(drz->prawy, tab)=='0')) return '0';
     else return '1';
   }
-	else if(drz->tp==dd && drz->sp==wttw)
+  else if(drz->tp==dd && drz->sp==wttw)
   {
     if(((wylicz(drz->lewy, tab)=='1') && (wylicz(drz->prawy, tab)=='1')) || ((wylicz(drz->lewy, tab)=='0') && (wylicz(drz->prawy, tab)=='0'))) return '1';
     else return '1';
