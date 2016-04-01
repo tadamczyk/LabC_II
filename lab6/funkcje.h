@@ -4,7 +4,7 @@
 typedef enum {FALSE=0, TRUE=1} Boolean;
 typedef enum {zz=0, ss=1, dd=2} typ;
 typedef enum {nie=0, ii=1, lub=2, jesli=3, wttw=4} spojnik;
-typedef  struct wz
+typedef struct wz
 {
   typ tp;
   char zm;

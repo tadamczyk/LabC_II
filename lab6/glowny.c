@@ -56,15 +56,15 @@ int main(int argnum, char* arg[])
     for(i=0;i<1024 && (tautologia==1 || spelnialna==0);i++)
     {
       if(i%2==1) tab[0]='1'; else tab[0]='0';
-			if((i>>1)%2==1) tab[1]='1'; else tab[1]='0';
-			if((i>>2)%2==1) tab[2]='1'; else tab[2]='0';
-			if((i>>3)%2==1) tab[3]='1'; else tab[3]='0';
-			if((i>>4)%2==1) tab[4]='1'; else tab[4]='0';
-			if((i>>5)%2==1) tab[5]='1'; else tab[5]='0';
-			if((i>>6)%2==1) tab[6]='1'; else tab[6]='0';
-			if((i>>7)%2==1) tab[7]='1'; else tab[7]='0';
-			if((i>>8)%2==1) tab[8]='1'; else tab[8]='0';
-			if((i>>9)%2==1) tab[9]='1'; else tab[9]='0';
+      if((i>>1)%2==1) tab[1]='1'; else tab[1]='0';
+      if((i>>2)%2==1) tab[2]='1'; else tab[2]='0';
+      if((i>>3)%2==1) tab[3]='1'; else tab[3]='0';
+      if((i>>4)%2==1) tab[4]='1'; else tab[4]='0';
+      if((i>>5)%2==1) tab[5]='1'; else tab[5]='0';
+      if((i>>6)%2==1) tab[6]='1'; else tab[6]='0';
+      if((i>>7)%2==1) tab[7]='1'; else tab[7]='0';
+      if((i>>8)%2==1) tab[8]='1'; else tab[8]='0';
+      if((i>>9)%2==1) tab[9]='1'; else tab[9]='0';
       if(wylicz(drz, tab)=='0')
       {
         if(tautologia==1)
