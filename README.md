@@ -44,6 +44,9 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 2](lab5/zad2.c) -
 
 6. [Laboratorium 6](lab6) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs06/):
+  * [ ] [zadanie 1](lab6/zad1.c)
+  * [ ] [zadanie 2](lab6/zad2.c)
+  * [ ] [zadanie 3](lab6/zad3.c)
 
 7. [Laboratorium 7](lab7) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs07/):
 
