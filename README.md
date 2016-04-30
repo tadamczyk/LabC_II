@@ -51,8 +51,14 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
     * [glowny.c](lab6/glowny.c)
 
 7. [Laboratorium 7](lab7) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs07/):
+  * [x] [zadanie 1](lab7/zad1.c) - prawidłowa kompilacja
+  * [x] [zadanie 2 / zadanie 3](lab7/zad2_3.c) - prawidłowa kompilacja
 
 8. [Laboratorium 8](lab8) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs08/):
+  * [x] [zadanie 1](lab8/zad1.c) - prawidłowa kompilacja
+  * [x] [zadanie 2](lab8/zad2.c) - prawidłowa kompilacja
+  * [x] [zadanie 3](lab8/zad3.c) - prawidłowa kompilacja
+  * [x] [zadanie 4](lab8/zad4.c) - prawidłowa kompilacja
 
 9. [Laboratorium 9](lab9) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):
 
