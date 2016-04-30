@@ -66,8 +66,8 @@ void sort_qsort(int *linie)
   int i;
   for(i = 0; i < *linie; i++)
   {
-    fprintf(baza_q, "%20s	", spis[i].imie);
-    fprintf(baza_q, "%20s	", spis[i].nazwisko);
+    fprintf(baza_q, "%20s ", spis[i].imie);
+    fprintf(baza_q, "%20s ", spis[i].nazwisko);
     fprintf(baza_q, "%20i\n", spis[i].pensja);
   }
   fclose(baza_q);
@@ -98,8 +98,8 @@ void sort_bubble(int *linie)
   FILE* baza_b = fopen("bubblesort.txt", "w");
   for(i = 0; i < *linie; i++)
   {
-    fprintf(baza_b, "%20s	", spis[i].imie);
-    fprintf(baza_b, "%20s	", spis[i].nazwisko);
+    fprintf(baza_b, "%20s ", spis[i].imie);
+    fprintf(baza_b, "%20s ", spis[i].nazwisko);
     fprintf(baza_b, "%20i\n", spis[i].pensja);
   }
   fclose(baza_b);
