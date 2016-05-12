@@ -1,3 +1,7 @@
+// Zrealizować w PHP na sigmie licznik odwiedzin strony, działający również po zamknięciu sesji i wylogowaniu się.
+// To znaczy, kiedy Państwo wrócą do domu, wyłączą swoje prywatne komputery i pójdą spać,
+// to wizyty gości na postawionej przez Państwo stronie licznik ma nadal odnotowywać.
+
 <?php
 header("Pragma: no-cache");
 ?>

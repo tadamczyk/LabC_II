@@ -1,3 +1,6 @@
+// Tutaj znajduje się formularz, na którym można zapisywać się na imprezę. 
+// Proszę postawić witrynę o takiej samej funkcjonalności, ale z inną własnoręcznie zaprojektowaną kolorystyką.
+
 <?php
 session_start();
 //unset($_SESSION['indeks']); dla resetowania

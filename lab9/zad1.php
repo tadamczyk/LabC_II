@@ -1,3 +1,5 @@
+// Proszę na własnym koncie na sigmie postawić kalkulator taki jak powyższy, równie dobrze wykonujący działania arytmetyczne.
+
 <!doctype html>
 <html land="pl">
 <head>
