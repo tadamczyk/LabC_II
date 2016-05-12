@@ -61,5 +61,8 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 4](lab8/zad4.c) - prawidłowa kompilacja
 
 9. [Laboratorium 9](lab9) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs09/):
+  * [x] [zadanie 1](lab9/zad1.php) - prawidłowe działanie
+  * [x] [zadanie 2](lab9/zad2.php) - prawidłowe działanie
+  * [x] [zadanie 3](lab9/zad3.php) - prawidłowe działanie
 
 10. [Laboratorium 10](lab10) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/):
