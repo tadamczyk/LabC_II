@@ -23,21 +23,21 @@
           <input type="radio" name="op" value="*"> <b>&middot;</b><br>
           <input type="radio" name="op" value="/"> <b>/</b>
         </td>
-    <td style="background-color:yellow">
-      &nbsp;&nbsp;
-    </td>
-    <th style="background-color:yellow">
-     Drugi arg:<br>
-     <input type="text" name="arg2" size="8">
-    </th>
-    <td style="background-color:yellow">
-      &nbsp;&nbsp;
-    </td>
-    <th style="background-color:yellow">
-     <input type="submit" value="==">
-    </th>
-   </tr>
-  </table>
- </form>
+        <td style="background-color:yellow">
+          &nbsp;&nbsp;
+        </td>
+        <th style="background-color:yellow">
+          Drugi arg:<br>
+          <input type="text" name="arg2" size="8">
+        </th>
+        <td style="background-color:yellow">
+          &nbsp;&nbsp;
+        </td>
+        <th style="background-color:yellow">
+          <input type="submit" value="==">
+        </th>
+      </tr>
+    </table>
+  </form>
 </body>
 </html>
