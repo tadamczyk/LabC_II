@@ -32,8 +32,8 @@ session_start();
   <input type="hidden"
          name="ile"
          value="<?php
-		            if(isset($_SESSION['indeks'])) echo $_SESSION['indeks'];
-                else echo '0';?>"	                                     >
+         if(isset($_SESSION['indeks'])) echo $_SESSION['indeks'];
+         else echo '0';?>">
   <input type="submit" value="ZAPISZ">
   </form>
   </div>
