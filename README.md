@@ -66,3 +66,14 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 3](lab9/zad3.php) - prawidłowe działanie
 
 10. [Laboratorium 10](lab10) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs10/):
+
+11. [Laboratorium 11](lab11) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs11/):
+
+12. [Laboratorium 12](lab12) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs12/):
+
+13. [Laboratorium 13](lab13) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs13/):
+  * [x] [zadanie 1](lab13/zad1.c) - prawidłowa kompilacja
+  * [ ] [zadanie 2](lab13/zad2.c)
+  * [ ] [zadanie 3](lab13/zad3.c)
+
+14. [Laboratorium 14](lab14) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs14/):
