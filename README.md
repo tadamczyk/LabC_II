@@ -76,5 +76,3 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
   * [x] [zadanie 1](lab13/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab13/zad2.c) - prawidłowa kompilacja
   * [ ] [zadanie 3](lab13/zad3.c)
-
-14. [Laboratorium 14](lab14) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs14/):
