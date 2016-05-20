@@ -70,7 +70,7 @@ Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 11. [Laboratorium 11](lab11) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs11/):
 
 12. [Laboratorium 12](lab12) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs12.pdf):
-  * [x] [zadanie 1 / zadanie 2](lab9) - prawidłowe działanie
+  * [x] [zadanie 1 / zadanie 2](lab12) - prawidłowe działanie
 
 13. [Laboratorium 13](lab13) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs13/):
   * [x] [zadanie 1](lab13/zad1.c) - prawidłowa kompilacja
