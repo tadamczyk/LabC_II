@@ -16,7 +16,7 @@ function checkTimeout($timeout)
 <html lang="pl">
 <head>
   <meta charset="utf-8" />
-	<title>Home</title>
+  <title>Home</title>
   <meta name="description" content="Welcome <?php echo $_SESSION['username']; ?>" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 </head>
