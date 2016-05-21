@@ -4,7 +4,7 @@ Wykład: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezPro
 
 Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
 
-!!!ROZWIĄZANIA ZADAŃ ZGODNE Z WYMAGANIAMI PRZEDSTAWIONYMI W TREŚCI ZADAŃ!!!
+   !!!   ROZWIĄZANIA ZADAŃ ZGODNE Z WYMAGANIAMI PRZEDSTAWIONYMI W TREŚCI ZADAŃ   !!!
 
 |        TYP| ROZMIAR|                  MIN|                  MAX|       ZIARNO|  PRECYZJA|
 |-----------|--------|---------------------|---------------------|-------------|----------|
