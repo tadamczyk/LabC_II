@@ -1,8 +1,8 @@
 # Laboratorium z C, Języki Programowania
 
-Wykład: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/)
+Wykład: [dr Stefan Sokołowski](http://sigma.ug.edu.pl/~stefan/Dydaktyka/)
 
-Laboratorium: [dr Włodzimierz Bzyl](http://wbzyl.inf.ug.edu.pl/c/)
+Laboratorium: [dr Włodzimierz Bzyl](http://tao.inf.ug.edu.pl/)
 
 |     !!!   ROZWIĄZANIA ZADAŃ ZGODNE Z WYMAGANIAMI PRZEDSTAWIONYMI W TREŚCI ZADAŃ   !!!|
 |--------------------------------------------------------------------------------------|
