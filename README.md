@@ -78,4 +78,3 @@ Laboratorium: [dr Włodzimierz Bzyl](http://tao.inf.ug.edu.pl/)
 13. [Laboratorium 13](lab13) [(treść zadań)](http://sigma.ug.edu.pl/~stefan/Dydaktyka/JezProg/Slajdy/Labs13/):
   * [x] [zadanie 1](lab13/zad1.c) - prawidłowa kompilacja
   * [x] [zadanie 2](lab13/zad2.c) - prawidłowa kompilacja
-  * [ ] [zadanie 3](lab13/zad3.c)
